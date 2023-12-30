@@ -3,7 +3,7 @@ try:
     x = y = 0
     while x < lim:
         while y < lim:
-            print(x, y, end=' ')
+            # print(x, y, end=' ')
             if x <= lim - 1 - y and y >=x:
 
                 print(f' *', end=' ')
